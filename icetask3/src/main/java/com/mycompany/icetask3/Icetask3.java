@@ -21,5 +21,16 @@ public class Icetask3 {
         bloodType = "O";
         rhFactor = "+";
         }
+ public Icetask3(String bloodType, String rhFactor) {
+        this.bloodType = bloodType;
+        this.rhFactor = rhFactor;
+    }
 
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public void setBloodType(String bloodType) {
+        this.bloodType = bloodType;
+    }
   
