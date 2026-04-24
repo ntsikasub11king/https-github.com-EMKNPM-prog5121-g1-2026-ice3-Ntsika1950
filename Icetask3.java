@@ -1,0 +1,43 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+
+package com.mycompany.icetask3;
+
+/**
+ *
+ * @author lab_services_student
+ */
+public class Icetask3 {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+
+    private String bloodType;
+    private String rhFactor;
+
+    public Icetask3() {
+        bloodType = "O";
+        rhFactor = "+";
+        }
+ public Icetask3(String bloodType, String rhFactor) {
+        this.bloodType = bloodType;
+        this.rhFactor = rhFactor;
+    }
+
+    public String getBloodType() {
+        return bloodType;
+    }
+
+    public void setBloodType(String bloodType) {
+        this.bloodType = bloodType;
+    }public String getRhFactor() {
+        return rhFactor;
+    }
+
+    public void setRhFactor(String rhFactor) {
+        this.rhFactor = rhFactor;
+    }
+}
+  
