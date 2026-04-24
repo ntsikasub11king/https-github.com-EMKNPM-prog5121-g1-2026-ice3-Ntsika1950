@@ -32,5 +32,12 @@ public class Icetask3 {
 
     public void setBloodType(String bloodType) {
         this.bloodType = bloodType;
+    }public String getRhFactor() {
+        return rhFactor;
     }
+
+    public void setRhFactor(String rhFactor) {
+        this.rhFactor = rhFactor;
+    }
+}
   
